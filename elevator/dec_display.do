@@ -3,7 +3,7 @@ quietly WaveActivateNextPane {} 0
 add wave -noupdate /dec_display/fl
 add wave -noupdate -expand /dec_display/display
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {444 ps} 0}
+WaveRestoreCursors {{Cursor 1} {370 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -19,10 +19,10 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {1 ns}
+WaveRestoreZoom {661 ps} {890 ps}
 view wave 
 wave clipboard store
-wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1000 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 1000ps sim:/dec_display/fl 
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 1000ps sim:/dec_display/fl 
 WaveExpandAll -1
 WaveCollapseAll -1
 wave clipboard restore

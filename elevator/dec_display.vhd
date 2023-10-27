@@ -4,16 +4,21 @@ PORT (	fl	: IN BIT_VECTOR(3 DOWNTO 0);
 );
 END dec_display;
 
-ARCHITECTURE arch OF dec_display IS
+ARCHITECTURE behavior OF dec_display IS
 BEGIN
 	PROCESS(fl)
 		BEGIN
-			display(0) <= fl(3) OR fl(1) OR (fl(2) AND fl(0));
-			display(1) <= fl(3) OR (NOT fl(2) AND (fl(1) OR fl(0))) OR (fl(1) AND fl(0)) OR (fl(2) AND NOT fl(1) AND NOT fl(0));
-			display(2) <= fl(3) OR fl(2) OR fl(0);
-			display(3) <= fl(3) OR (fl(1) AND NOT (fl(2) AND fl(0))) OR (fl(2) AND NOT fl(1) AND fl(0));
-			display(4) <= fl(3) OR (fl(1) AND NOT fl(0));
-			display(5) <= fl(3) OR (fl(2) AND NOT (fl(1) AND fl(0)));
-			display(6) <= fl(3) OR (fl(1) AND NOT fl(0)) OR (fl(2) XOR fl(1));
+			CASE fl IS
+				WHEN "0000" => display <= "1100111";
+				WHEN "0001" => display <= "0110000";
+				WHEN "0010" => display <= "1101101";
+				WHEN "0011" => display <= "1111001";
+				WHEN "0100" => display <= "0110011";
+				WHEN "0101" => display <= "1011011";
+				WHEN "0110" => display <= "1011111";
+				WHEN "0111" => display <= "1110000";
+				WHEN "1000" => display <= "1111111";
+				WHEN OTHERS => display <= "0000000";
+			END CASE;
 	END PROCESS;
-END arch;
+END behavior;
