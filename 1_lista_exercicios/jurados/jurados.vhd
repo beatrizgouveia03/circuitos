@@ -1,0 +1,2 @@
+ENTITY jurados IS
+PORT ( 

@@ -1,0 +1,48 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  2 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/usuario/Documentos/Circuitos/1_lista_exercicios/carro
+Esum_binary_vector
+Z0 w1695834272
+!i122 9
+Z1 d/home/usuario/Documentos/Circuitos/1_lista_exercicios/jurados
+Z2 8/home/usuario/Documentos/Circuitos/1_lista_exercicios/jurados/sum_binary_vector.vhd
+Z3 F/home/usuario/Documentos/Circuitos/1_lista_exercicios/jurados/sum_binary_vector.vhd
+l0
+L1 1
+VT^<0N0^DJjUG9ADm14E4e3
+!s100 @HLnC>Zc:6fA[CiMT57]J0
+Z4 OV;C;2021.1;73
+32
+!s110 1695834278
+!i10b 1
+!s108 1695834278.000000
+Z5 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/usuario/Documentos/Circuitos/1_lista_exercicios/jurados/sum_binary_vector.vhd|
+Z6 !s107 /home/usuario/Documentos/Circuitos/1_lista_exercicios/jurados/sum_binary_vector.vhd|
+!i113 1
+Z7 o-work work -2002 -explicit
+Z8 tExplicit 1 CvgOpt 0
+Aarch
+DEx4 work 17 sum_binary_vector 0 22 T^<0N0^DJjUG9ADm14E4e3
+!i122 8
+l7
+L6 11
+VH;dciP6]ZX<l>2WC7YWAn0
+!s100 UODDjSGP?_bEN7JoMYmjl3
+R4
+32
+!s110 1695834252
+!i10b 1
+!s108 1695834252.000000
+R5
+R6
+!i113 1
+R7
+R8

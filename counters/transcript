@@ -1,0 +1,35 @@
+# Loading project contadores
+# reading /home/usuario/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project counter_Wbits
+# Load canceled
+vsim work.counter_wbits
+# vsim work.counter_wbits 
+# Start time: 10:09:32 on Oct 25,2023
+# Loading std.standard
+# ** Fatal: (vsim-3382) New library format is incompatible with this version of the simulator.  Design unit '/home/usuario/Documentos/Circuitos/counters/work.counter_wbits(arch)'
+#    Time: 0 ps  Iteration: 0  Root: / File: NOFILE
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 10:09:32 on Oct 25,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim work.counter_wbits
+# vsim work.counter_wbits 
+# Start time: 10:09:33 on Oct 25,2023
+# Loading std.standard
+# ** Fatal: (vsim-3382) New library format is incompatible with this version of the simulator.  Design unit '/home/usuario/Documentos/Circuitos/counters/work.counter_wbits(arch)'
+#    Time: 0 ps  Iteration: 0  Root: / File: NOFILE
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 10:09:34 on Oct 25,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of counter_Wbits.vhd was successful.
+vsim work.counter_wbits
+# vsim work.counter_wbits 
+# Start time: 10:09:50 on Oct 25,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_wbits(arch)
+# End time: 10:11:24 on Oct 25,2023, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 2

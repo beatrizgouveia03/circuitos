@@ -1,0 +1,46 @@
+# Loading project elevador
+vsim work.cod_destino
+# vsim work.cod_destino 
+# Start time: 10:31:30 on Oct 18,2023
+# Loading std.standard
+# Loading work.cod_destino(behavior)
+add wave -position end  sim:/cod_destino/floor_level
+add wave -position end  sim:/cod_destino/buttons
+add wave -position end  sim:/cod_destino/buttons
+force -freeze sim:/cod_destino/buttons(0) 1 0 -cancel 10
+run
+force -freeze sim:/cod_destino/buttons(0) 1 0 -cancel 100
+force -freeze sim:/cod_destino/buttons(1) 1 100 -cancel 200
+force -freeze sim:/cod_destino/buttons(2) 1 200 -cancel 300
+force -freeze sim:/cod_destino/buttons(3) 1 300 -cancel 400
+force -freeze sim:/cod_destino/buttons(4) 1 400 -cancel 500
+force -freeze sim:/cod_destino/buttons(5) 1 500 -cancel 600
+force -freeze sim:/cod_destino/buttons(6) 1 600 -cancel 700
+force -freeze sim:/cod_destino/buttons(7) 1 700 -cancel 800
+force -freeze sim:/cod_destino/buttons(8) 1 800
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/usuario/Documentos/Circuitos/elevator/cod_destino.do
+# Break key hit
+quit -sim
+# End time: 10:36:10 on Oct 18,2023, Elapsed time: 0:04:40
+# Errors: 0, Warnings: 1
+# Compile of dec_display.vhd failed with 4 errors.
+# Compile of dec_display.vhd was successful.
+vsim work.dec_display
+# vsim work.dec_display 
+# Start time: 11:27:54 on Oct 18,2023
+# Loading std.standard
+# Loading work.dec_display(arch)
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1000 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 1000ps sim:/dec_display/fl
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+add wave -position end  sim:/dec_display/display
+run
+# Compile of dec_display.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.dec_display(arch)
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/usuario/Documentos/Circuitos/elevator/dec_display.do
+wave editwrite -file /home/usuario/Documentos/Circuitos/elevator/dec_display.do -append
+# End time: 11:39:18 on Oct 18,2023, Elapsed time: 0:11:24
+# Errors: 0, Warnings: 2

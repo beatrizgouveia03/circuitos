@@ -1,0 +1,78 @@
+# Loading project jurados
+# reading /home/usuario/intelFPGA_pro/21.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project mux_16x1
+# Compile of mux_4x1.vhd was successful.
+# Compile of mux_16x1.vhd failed with 6 errors.
+# Compile of mux_16x1.vhd failed with 5 errors.
+# Compile of mux_4x1.vhd was successful.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of mux_16x1.vhd was successful.
+# Compile of mux_16x1.vhd failed with 1 errors.
+# Compile of mux_16x1.vhd failed with 1 errors.
+# Compile of mux_16x1.vhd failed with 4 errors.
+# Compile of mux_4x1.vhd was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of mux_16x1.vhd failed with 4 errors.
+# Compile of mux_16x1.vhd failed with 4 errors.
+# Compile of mux_16x1.vhd was successful.
+vsim work.mux_16x1
+# vsim work.mux_16x1 
+# Start time: 16:21:31 on Sep 27,2023
+# Loading std.standard
+# Loading work.mux_16x1(arch)
+# Loading work.mux_4x1(structural)
+add wave  \
+sim:/mux_16x1/a
+add wave  \
+sim:/mux_16x1/sel
+add wave -position end  sim:/mux_16x1/s
+force -freeze sim:/mux_16x1/a 1110001110100000 0
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 1111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 3 0 -starttime 0ps -endtime 1000ps sim:/mux_16x1/sel
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+add wave -position 1 -autoscale 1 -format Literal -height 19 -editable 2 Edit:/mux_16x1/sel
+force -freeze sim:/mux_16x1/a 1110001110100000 0
+run
+add wave -position end  sim:/mux_16x1/s0
+add wave -position end  sim:/mux_16x1/s1
+add wave -position end  sim:/mux_16x1/s2
+add wave -position end  sim:/mux_16x1/s3
+add wave -position end  sim:/mux_16x1/sel0
+add wave -position end  sim:/mux_16x1/sel1
+run
+# Compile of mux_16x1.vhd failed with 5 errors.
+# Compile of mux_16x1.vhd was successful.
+# Compile of mux_16x1.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mux_16x1(arch)
+force -freeze sim:/mux_16x1/a 1110001110100000 0
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/usuario/Documentos/Circuitos/exercicios_mux/mux_16x1/wave.do
+wave editwrite -file /home/usuario/Documentos/Circuitos/exercicios_mux/mux_16x1/wave.do -append
+quit -sim
+# End time: 16:35:32 on Sep 27,2023, Elapsed time: 0:14:01
+# Errors: 0, Warnings: 1
+# reading /home/usuario/intelFPGA_pro/21.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project equacao
+# Compile of equacao.vhd failed with 2 errors.
+# Compile of equacao.vhd failed with 1 errors.
+# Compile of equacao.vhd was successful.
+vsim work.equacao
+# vsim work.equacao 
+# Start time: 16:42:38 on Sep 27,2023
+# Loading std.standard
+# Loading work.equacao(arch)
+wave create -driver freeze -pattern counter -startvalue 000 -endvalue 111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 2 0 -starttime 0ps -endtime 1000ps sim:/equacao/a
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+add wave -position end  sim:/equacao/s
+run
+# Compile of equacao.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.equacao(arch)
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/usuario/Documentos/Circuitos/exercicios_mux/equacao/wave.do
+wave editwrite -file /home/usuario/Documentos/Circuitos/exercicios_mux/equacao/wave.do -append
+quit -sim
+# End time: 16:45:42 on Sep 27,2023, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 1

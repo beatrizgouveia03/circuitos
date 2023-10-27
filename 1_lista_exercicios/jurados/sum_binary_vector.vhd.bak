@@ -1,0 +1,16 @@
+ENTITY sum_binary_vector IS
+PORT (  a : IN BIT_VECTOR(3 DOWNTO 0);
+	s : OUT BIT_VECTOR (3 DOWNTO 0));
+END sum_binary_vector;
+
+ARCHITECTURE arch OF sum_binary_vector IS
+BEGIN
+	PROCESS(a)
+	BEGIN
+		s <= (OTHERS => '0');
+
+		FOR i IN a'RANGE LOOP
+			s(i) <= a(i);
+		END LOOP;
+	END PROCESS;
+END arch;

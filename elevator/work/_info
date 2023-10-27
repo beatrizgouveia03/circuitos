@@ -1,0 +1,85 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/usuario/Documentos/Circuitos/flip_flop/latch_d_clear
+Ecod_destino
+Z0 w1697635217
+!i122 7
+Z1 d/home/usuario/Documentos/Circuitos/elevator
+Z2 8/home/usuario/Documentos/Circuitos/elevator/cod_destino.vhd
+Z3 F/home/usuario/Documentos/Circuitos/elevator/cod_destino.vhd
+l0
+L1 1
+VzJG<E^h9FYgJff^f[j3R90
+!s100 M1Ba88@OAIL91FeNC1@nO3
+Z4 OV;C;2021.1;73
+32
+Z5 !s110 1697635220
+!i10b 1
+Z6 !s108 1697635220.000000
+Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/usuario/Documentos/Circuitos/elevator/cod_destino.vhd|
+Z8 !s107 /home/usuario/Documentos/Circuitos/elevator/cod_destino.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Abehavior
+DEx4 work 11 cod_destino 0 22 zJG<E^h9FYgJff^f[j3R90
+!i122 7
+l8
+L7 26
+VGKCLzkHUfmMBL2906S[_m0
+!s100 fJ[l?IgTUcT3;O8iE`46I1
+R4
+32
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
+Edec_display
+Z11 w1697639846
+!i122 10
+R1
+Z12 8/home/usuario/Documentos/Circuitos/elevator/dec_display.vhd
+Z13 F/home/usuario/Documentos/Circuitos/elevator/dec_display.vhd
+l0
+L1 1
+V<zmJj4?cAf_YC2Hc]26Yo1
+!s100 Z9OfLI=[BkZ0lH[9bUI:N2
+R4
+32
+Z14 !s110 1697639853
+!i10b 1
+Z15 !s108 1697639853.000000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/usuario/Documentos/Circuitos/elevator/dec_display.vhd|
+Z17 !s107 /home/usuario/Documentos/Circuitos/elevator/dec_display.vhd|
+!i113 1
+R9
+R10
+Aarch
+Z18 DEx4 work 11 dec_display 0 22 <zmJj4?cAf_YC2Hc]26Yo1
+!i122 10
+l8
+Z19 L7 13
+V`^R=bN=C?ho>T8Gk8^g7Z1
+!s100 EBF9:`B:OLDL;3K34=K4D1
+R4
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R9
+R10
