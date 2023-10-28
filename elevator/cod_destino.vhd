@@ -1,6 +1,11 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.std_logic_unsigned.ALL;
+
+
 ENTITY cod_destino IS
-PORT(	buttons : IN BIT_VECTOR(8 DOWNTO 0); -- data input
-	floor_level 	: OUT BIT_VECTOR(3 DOWNTO 0) --data output
+PORT(	buttons : IN STD_LOGIC_VECTOR(8 DOWNTO 0); -- data input
+	floor_level 	: OUT STD_LOGIC_VECTOR(3 DOWNTO 0) --data output
 );
 END cod_destino;
 

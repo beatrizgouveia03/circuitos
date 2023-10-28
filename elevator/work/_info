@@ -10,158 +10,309 @@ z2
 cModel Technology
 dF:/Programs/intelFPGA/20.1
 Ecod_destino
-Z0 w1698512150
-!i122 5
-Z1 dF:/Documents/Circuitos/elevator
-Z2 8F:/Documents/Circuitos/elevator/cod_destino.vhd
-Z3 FF:/Documents/Circuitos/elevator/cod_destino.vhd
+Z0 w1698523294
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 46
+Z5 dF:/Documents/Circuitos/elevator
+Z6 8F:/Documents/Circuitos/elevator/cod_destino.vhd
+Z7 FF:/Documents/Circuitos/elevator/cod_destino.vhd
 l0
-L1 1
-VzJG<E^h9FYgJff^f[j3R90
-!s100 M1Ba88@OAIL91FeNC1@nO3
-Z4 OV;C;2020.1;71
+L6 1
+VTKCJo>`g:Pjk6?iAD_4ER2
+!s100 P[6@NK<a]9oT8]K?KTQZ31
+Z8 OV;C;2020.1;71
 32
-Z5 !s110 1698512155
+Z9 !s110 1698523346
 !i10b 1
-Z6 !s108 1698512155.000000
-Z7 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/cod_destino.vhd|
-Z8 !s107 F:/Documents/Circuitos/elevator/cod_destino.vhd|
+Z10 !s108 1698523346.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/cod_destino.vhd|
+Z12 !s107 F:/Documents/Circuitos/elevator/cod_destino.vhd|
 !i113 1
-Z9 o-work work -2002 -explicit
-Z10 tExplicit 1 CvgOpt 0
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
 Abehavior
-DEx4 work 11 cod_destino 0 22 zJG<E^h9FYgJff^f[j3R90
-!i122 5
-l8
-L7 26
-VcAJ95gmDZCH<Fe@m@R03e3
-!s100 a=nUJzH7CJBDiAgU2dcYK0
+R1
+R2
+R3
 R4
-32
-R5
-!i10b 1
-R6
-R7
+DEx4 work 11 cod_destino 0 22 TKCJo>`g:Pjk6?iAD_4ER2
+!i122 46
+l13
+L12 26
+V02`OeBgXJg`5HTj0:3TID2
+!s100 R=j0m2NMXnCN<6ehfKE2U2
 R8
-!i113 1
-R9
-R10
-Ecomp_andares
-Z11 w1698510431
-!i122 1
-R1
-Z12 8F:/Documents/Circuitos/elevator/comp_andares.vhd
-Z13 FF:/Documents/Circuitos/elevator/comp_andares.vhd
-l0
-L1 1
-VcWHO6hJThV1odJ=9DJ0m_2
-!s100 4<RFF[MHUIi2fVX58X0`T3
-R4
 32
-Z14 !s110 1698510815
+R9
 !i10b 1
-Z15 !s108 1698510815.000000
-Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/comp_andares.vhd|
-Z17 !s107 F:/Documents/Circuitos/elevator/comp_andares.vhd|
-!i113 1
-R9
 R10
-Abehavior
-DEx4 work 12 comp_andares 0 22 cWHO6hJThV1odJ=9DJ0m_2
-!i122 1
-l8
-L7 13
-Vd;;OHZe60Ko4]?Ao_n<Oh3
-!s100 N6XN]NK`=V1>T^W4`o7P[1
-R4
-32
+R11
+R12
+!i113 1
+R13
 R14
-!i10b 1
-R15
-R16
-R17
-!i113 1
-R9
-R10
-Econtador
-Z18 w1698512283
-Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z20 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z21 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z22 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 7
+Ecomp_andares
+Z15 w1698523452
 R1
+R2
+R3
+R4
+!i122 56
+R5
+Z16 8F:/Documents/Circuitos/elevator/comp_andares.vhd
+Z17 FF:/Documents/Circuitos/elevator/comp_andares.vhd
+l0
+L5 1
+VUfK>mZaXi<OgJJ0Y90<?e2
+!s100 :Mf92VG:89Ym_`4AJAW=J3
+R8
+32
+Z18 !s110 1698523536
+!i10b 1
+Z19 !s108 1698523536.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/comp_andares.vhd|
+Z21 !s107 F:/Documents/Circuitos/elevator/comp_andares.vhd|
+!i113 1
+R13
+R14
+Abehavior
+R1
+R2
+R3
+R4
+DEx4 work 12 comp_andares 0 22 UfK>mZaXi<OgJJ0Y90<?e2
+!i122 56
+l12
+L11 13
+VLH2X_J3A3f<J?9M:28P9G0
+!s100 BLG_RJmkG>EAP;7>^4zd83
+R8
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R13
+R14
+Econtador
+Z22 w1698521554
+R1
+R2
+R3
+R4
+!i122 50
+R5
 Z23 8F:/Documents/Circuitos/elevator/contador.vhd
 Z24 FF:/Documents/Circuitos/elevator/contador.vhd
 l0
 L5 1
 VgLi_d3@<7XULV5]iU8Z4X2
 !s100 i`[j0I@8SPHHCbgN2nSeS2
-R4
+R8
 32
-Z25 !s110 1698512288
-!i10b 1
-Z26 !s108 1698512288.000000
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/contador.vhd|
-!s107 F:/Documents/Circuitos/elevator/contador.vhd|
-!i113 1
 R9
+!i10b 1
 R10
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/contador.vhd|
+Z26 !s107 F:/Documents/Circuitos/elevator/contador.vhd|
+!i113 1
+R13
+R14
 Abehavior
-R19
-R20
-R21
-R22
+R1
+R2
+R3
+R4
 DEx4 work 8 contador 0 22 gLi_d3@<7XULV5]iU8Z4X2
-!i122 7
+!i122 50
 l19
 L18 21
 VJ5kdHLgnfB2B3:[[ak19O2
 !s100 z1S7N=58``HZKLg6DnX=T1
-R4
+R8
 32
+R9
+!i10b 1
+R10
 R25
-!i10b 1
 R26
-R27
-Z28 !s107 F:/Documents/Circuitos/elevator/contador.vhd|
 !i113 1
-R9
-R10
+R13
+R14
 Edec_display
-R11
-!i122 2
+Z27 w1698523309
 R1
-Z29 8F:/Documents/Circuitos/elevator/dec_display.vhd
-Z30 FF:/Documents/Circuitos/elevator/dec_display.vhd
+R2
+R3
+R4
+!i122 48
+R5
+Z28 8F:/Documents/Circuitos/elevator/dec_display.vhd
+Z29 FF:/Documents/Circuitos/elevator/dec_display.vhd
 l0
-L1 1
-V<zmJj4?cAf_YC2Hc]26Yo1
-!s100 Z9OfLI=[BkZ0lH[9bUI:N2
-R4
+L5 1
+V^L]08h@n[9Q1iX97b1C0e3
+!s100 Zmf?2I3OQDP<T5536m=8^2
+R8
 32
-R14
-!i10b 1
-R15
-Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/dec_display.vhd|
-Z32 !s107 F:/Documents/Circuitos/elevator/dec_display.vhd|
-!i113 1
 R9
+!i10b 1
 R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/dec_display.vhd|
+Z31 !s107 F:/Documents/Circuitos/elevator/dec_display.vhd|
+!i113 1
+R13
+R14
 Abehavior
-DEx4 work 11 dec_display 0 22 <zmJj4?cAf_YC2Hc]26Yo1
-!i122 2
-l8
-L7 18
-V6C>O@cgga_NC5KI654ITo2
-!s100 eS@^XSXzUL8Bk`lMYF5^z2
+R1
+R2
+R3
 R4
+DEx4 work 11 dec_display 0 22 ^L]08h@n[9Q1iX97b1C0e3
+!i122 48
+l12
+L11 18
+V2]55l[Tg0N>XI95ob;WJ]1
+!s100 SJb2kAP=cdGeR]C6MCLoF2
+R8
 32
-R14
-!i10b 1
-R15
-R31
-R32
-!i113 1
 R9
+!i10b 1
 R10
+R30
+R31
+!i113 1
+R13
+R14
+Eelevador
+Z32 w1698523980
+R1
+R2
+R3
+R4
+!i122 59
+R5
+Z33 8F:/Documents/Circuitos/elevator/elevador.vhd
+Z34 FF:/Documents/Circuitos/elevator/elevador.vhd
+l0
+L5 1
+Vn2jLCOK1@QQz41J?blKd_2
+!s100 Ml_ZJB0mPJU?522R9L28c2
+R8
+32
+Z35 !s110 1698524001
+!i10b 1
+Z36 !s108 1698524001.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/elevador.vhd|
+Z38 !s107 F:/Documents/Circuitos/elevator/elevador.vhd|
+!i113 1
+R13
+R14
+Aarch
+R1
+R2
+R3
+R4
+Z39 DEx4 work 8 elevador 0 22 n2jLCOK1@QQz41J?blKd_2
+!i122 59
+l76
+L12 73
+V@Effmc35X0AR6KjD0SdW92
+!s100 czhiGM3cU5:45_W9I9=L>1
+R8
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 1
+R13
+R14
+Emaq_estados
+Z40 w1698523323
+!i122 52
+R5
+Z41 8F:/Documents/Circuitos/elevator/maq_estados.vhd
+Z42 FF:/Documents/Circuitos/elevator/maq_estados.vhd
+l0
+L2 1
+VQCakhXz0aXO<WH[SYFBne2
+!s100 VCg>MGE0]oliR7VQU6G:m2
+R8
+32
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/maq_estados.vhd|
+Z44 !s107 F:/Documents/Circuitos/elevator/maq_estados.vhd|
+!i113 1
+R13
+R14
+Aarch
+DEx4 work 11 maq_estados 0 22 QCakhXz0aXO<WH[SYFBne2
+!i122 52
+l16
+L10 54
+VDNaNWZ`>HB:S2zH=bRdem3
+!s100 k>j7ck`2?KJH8A7cER@QL3
+R8
+32
+R9
+!i10b 1
+R10
+R43
+R44
+!i113 1
+R13
+R14
+Ereg_andar
+Z45 w1698523333
+R1
+R2
+R3
+R4
+!i122 51
+R5
+Z46 8F:/Documents/Circuitos/elevator/reg_andar.vhd
+Z47 FF:/Documents/Circuitos/elevator/reg_andar.vhd
+l0
+L5 1
+VZ=kJ4i@LdiWehAM@QBO:A0
+!s100 33eokP@NNPEL0BMUdhUGk0
+R8
+32
+R9
+!i10b 1
+R10
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Documents/Circuitos/elevator/reg_andar.vhd|
+Z49 !s107 F:/Documents/Circuitos/elevator/reg_andar.vhd|
+!i113 1
+R13
+R14
+Aarch
+R1
+R2
+R3
+R4
+DEx4 work 9 reg_andar 0 22 Z=kJ4i@LdiWehAM@QBO:A0
+!i122 51
+l17
+L16 13
+VzHD2_gnW3YE^k]KEV55zD2
+!s100 h12AWkNNXC@=S0VIkcZgZ1
+R8
+32
+R9
+!i10b 1
+R10
+R48
+R49
+!i113 1
+R13
+R14

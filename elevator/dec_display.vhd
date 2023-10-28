@@ -1,6 +1,10 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.std_logic_unsigned.ALL;
+
 ENTITY dec_display IS
-PORT (	fl	: IN BIT_VECTOR(3 DOWNTO 0);
-	display		: OUT BIT_VECTOR(6 DOWNTO 0)
+PORT (	fl	: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	display		: OUT STD_LOGIC_VECTOR(6 DOWNTO 0)
 );
 END dec_display;
 
