@@ -26,7 +26,7 @@ BEGIN
 				WHEN 6 => floor_level <= "0110";
 				WHEN 7 => floor_level <= "0111";
 				WHEN 8 => floor_level <= "1000";
-				WHEN OTHER => floor_level <= "1111";
+				WHEN OTHERs => floor_level <= "1111";
 			END CASE;
 	END PROCESS;
 END behavior;

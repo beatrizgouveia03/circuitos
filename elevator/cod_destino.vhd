@@ -10,7 +10,7 @@ BEGIN
 		variable selected_floor : integer := 0;
 		BEGIN
 			FOR i IN 0 TO 8 LOOP
-				IF buttons(i) = '1' THEN
+				IF (buttons(i) = '1') THEN
 					selected_floor := i;
 					EXIT;
 				END IF;
