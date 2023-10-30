@@ -4,7 +4,8 @@ PORT (	clk 	: IN BIT; -- clock
 	    clrn	: IN BIT; -- clear
 	    up	: IN BIT; -- input 1
 	    down	: IN BIT; -- input 2
-	    inc, l 	: OUT BIT); -- output
+	    inc, load 	: OUT BIT; -- output
+cont, reg : OUT BIT); -- enables
 END  maq_estados;
 
 ARCHITECTURE arch OF  maq_estados IS
@@ -14,11 +15,11 @@ SIGNAL state_reg : state_type;
 SIGNAL next_state: state_type;
 
 BEGIN
-p_state_reg: PROCESS(clk,clrn)
+p_state_reg: PROCESS(clk, state_reg, clrn)
 	BEGIN
 		IF (clrn='0') THEN
 			state_reg <= parar;
-		ELSIF (clk'EVENT AND clk='1') THEN
+		ELSE
 			state_reg <= next_state;
 		END IF;
 	END PROCESS;
@@ -51,13 +52,19 @@ p_next_state: PROCESS(state_reg, up, down)
 	BEGIN
         IF(state_reg = subir) THEN
             inc <= '1';
-            l <= '0';
+            load <= '0';
+			cont <= '1' ;
+			reg <= '0';
         ELSIF(state_reg = descer) THEN
             inc <= '0';
-            l <= '0';
+            load <= '0';
+			cont <= '1';
+			reg <= '0';
         ELSE
             inc <= '0';
-            l <='1';
+            load <= '1';
+			cont <= '0';
+			reg <= '1';
         END IF;
     END PROCESS;
 END arch;
